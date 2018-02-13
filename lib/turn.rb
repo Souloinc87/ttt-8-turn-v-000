@@ -20,7 +20,7 @@ else
 end
 
 def position_taken?(board, index)
-  (board[index] == " " || board[index] == "" || board[index] == nil) == false
+  !(board[index] == " " || board[index] == "" || board[index] == nil) 
 end
 
 def move(board, index, value = "X")

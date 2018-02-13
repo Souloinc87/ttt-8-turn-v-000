@@ -29,7 +29,6 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-end
-def turn(board)
   user_input = gets
-end 
+end
+

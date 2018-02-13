@@ -1,15 +1,10 @@
 def display_board(board)
-  puts " X | X | X "
+  puts " #{board}| #{board} | #{board} "
   puts "-----------"
-  puts " X | O | O "
+  puts " #{board} | #{board} | #{board} "
   puts "-----------"
-  puts " X | O | O "
+  puts " #{board} | #{board} | #{board} "
 
-  puts " X | O | X "
-  puts "-----------"
-  puts " O | X | X "
-  puts "-----------"
-  puts " O | X | O "
 end
 
 def input_to_index(user_input)

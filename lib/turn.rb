@@ -32,7 +32,8 @@ def turn(board)
   user_input = gets
   index = input_to_index(user_input)
   valid_move?(board, index)
-   position_taken?(board, index)
+else
+  position_taken?(board, index)
   move(board, index, value = "X")
   display_board(board)
 end

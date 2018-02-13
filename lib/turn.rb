@@ -20,5 +20,5 @@ def valid_move(board, index)
   board{index} == false
 else
   index.between?(0, 8)
-  end
+
 end

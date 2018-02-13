@@ -35,5 +35,5 @@ def turn(board)
   valid-move?(board, 11)
   move(board, index, value = "X")
   display_board(board)
-end
+
 end
